@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.design_pattern.structural.adapter_pattern.instance_adapter</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">com.example.design_pattern.structural.adapter_pattern.instance_adapter.Adaptee</node>
+    <node x="137.0" y="0.0">com.example.design_pattern.structural.adapter_pattern.instance_adapter.Target</node>
+    <node x="20.166666666666686" y="80.0">com.example.design_pattern.structural.adapter_pattern.instance_adapter.Adapter</node>
+    <node x="91.79924242424244" y="162.0">com.example.design_pattern.structural.adapter_pattern.instance_adapter.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.design_pattern.structural.adapter_pattern.instance_adapter.Adapter" target="com.example.design_pattern.structural.adapter_pattern.instance_adapter.Target" relationship="GENERALIZATION">
+      <point x="38.33333333333334" y="-15.0" />
+      <point x="116.00000000000003" y="55.0" />
+      <point x="163.0" y="55.0" />
+      <point x="-26.0" y="15.0" />
+    </edge>
+    <edge source="com.example.design_pattern.structural.adapter_pattern.instance_adapter.Main" target="com.example.design_pattern.structural.adapter_pattern.instance_adapter.Adapter" relationship="CREATE">
+      <point x="-22.5" y="-15.0" />
+      <point x="114.29924242424244" y="136.0" />
+      <point x="77.66666666666669" y="136.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.example.design_pattern.structural.adapter_pattern.instance_adapter.Adapter" target="com.example.design_pattern.structural.adapter_pattern.instance_adapter.Adaptee" relationship="TO_ONE">
+      <point x="0.0" y="-15.0" />
+      <point x="77.66666666666669" y="55.0" />
+      <point x="87.75" y="55.0" />
+      <point x="29.25" y="15.0" />
+    </edge>
+    <edge source="com.example.design_pattern.structural.adapter_pattern.instance_adapter.Main" target="com.example.design_pattern.structural.adapter_pattern.instance_adapter.Target" relationship="DEPENDENCY">
+      <point x="22.5" y="-15.0" />
+      <point x="159.29924242424244" y="136.0" />
+      <point x="194.0" y="136.0" />
+      <point x="194.0" y="55.0" />
+      <point x="215.0" y="55.0" />
+      <point x="26.0" y="15.0" />
+    </edge>
+    <edge source="com.example.design_pattern.structural.adapter_pattern.instance_adapter.Adapter" target="com.example.design_pattern.structural.adapter_pattern.instance_adapter.Adaptee" relationship="CREATE">
+      <point x="-38.33333333333334" y="-15.0" />
+      <point x="39.33333333333334" y="55.0" />
+      <point x="29.25" y="55.0" />
+      <point x="-29.25" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="126.0" y="92.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

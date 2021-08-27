@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.design_pattern.structural.adapter_pattern.class_adapter</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">com.example.design_pattern.structural.adapter_pattern.class_adapter.Adaptee</node>
+    <node x="66.25" y="80.0">com.example.design_pattern.structural.adapter_pattern.class_adapter.Adapter</node>
+    <node x="78.75" y="167.0">com.example.design_pattern.structural.adapter_pattern.class_adapter.Main</node>
+    <node x="137.0" y="0.0">com.example.design_pattern.structural.adapter_pattern.class_adapter.Target</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.design_pattern.structural.adapter_pattern.class_adapter.Adapter" target="com.example.design_pattern.structural.adapter_pattern.class_adapter.Adaptee" relationship="GENERALIZATION">
+      <point x="-28.75" y="-15.0" />
+      <point x="95.0" y="55.0" />
+      <point x="58.5" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.example.design_pattern.structural.adapter_pattern.class_adapter.Adapter" target="com.example.design_pattern.structural.adapter_pattern.class_adapter.Target" relationship="REALIZATION">
+      <point x="28.75" y="-15.0" />
+      <point x="152.5" y="55.0" />
+      <point x="189.0" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="120.5" y="92.5" />
+  <SelectedNodes>
+    <node>com.example.design_pattern.structural.adapter_pattern.class_adapter.Main</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
