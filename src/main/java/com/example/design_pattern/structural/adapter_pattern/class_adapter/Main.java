@@ -1,4 +1,4 @@
-package com.example.design_pattern.structural.adapter_pattern;
+package com.example.design_pattern.structural.adapter_pattern.class_adapter;
 
 /**
  * @description client

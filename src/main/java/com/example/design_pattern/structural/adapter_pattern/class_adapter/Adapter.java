@@ -1,7 +1,7 @@
-package com.example.design_pattern.structural.adapter_pattern;
+package com.example.design_pattern.structural.adapter_pattern.class_adapter;
 
 /**
- * @description 目前这是继承的调用，还有一种组合的调用
+ * @description 目前这是继承的适配，还有一种组合的适配
  * @author      fuge houyichao.hyc@alibaba-inc.com
  * @version     1.0
  * @date        2021/8/27-10:54 上午

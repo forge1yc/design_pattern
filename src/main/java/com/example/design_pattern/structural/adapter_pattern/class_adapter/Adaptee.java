@@ -1,4 +1,4 @@
-package com.example.design_pattern.structural.adapter_pattern;
+package com.example.design_pattern.structural.adapter_pattern.class_adapter;
 
 /**
  * @description 需要被适配的接口 Adaptee
@@ -9,10 +9,10 @@ package com.example.design_pattern.structural.adapter_pattern;
 public class Adaptee {
 
     public void methodA() {
-        System.out.println("Adapter methodA invoked");
+        System.out.println("Adaptee methodA invoked");
     }
 
     public void methodB() {
-        System.out.println("Adapter methodB invoked");
+        System.out.println("Adaptee methodB invoked");
     }
 }
