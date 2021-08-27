@@ -2,6 +2,12 @@ package com.example.design_pattern.template_pattern.inner;
 
 import com.example.design_pattern.template_pattern.AbstractTemplate;
 
+/**
+ * @description 测试类
+ * @author      fuge houyichao.hyc@alibaba-inc.com
+ * @version     1.0
+ * @date        2021/8/27-9:39 上午
+ */
 public class Main {
 
     public static void main(String[] args) {
