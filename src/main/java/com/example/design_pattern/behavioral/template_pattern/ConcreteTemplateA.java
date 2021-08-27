@@ -1,4 +1,4 @@
-package com.example.design_pattern.template_pattern;
+package com.example.design_pattern.behavioral.template_pattern;
 
 /**
  * 具体模板 A 类
