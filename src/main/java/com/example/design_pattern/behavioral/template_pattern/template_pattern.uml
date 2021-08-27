@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.design_pattern.behavioral.template_pattern</OriginalElement>
+  <nodes>
+    <node x="10.5" y="80.0">com.example.design_pattern.behavioral.template_pattern.ConcreteTemplateB</node>
+    <node x="236.5" y="80.0">com.example.design_pattern.behavioral.template_pattern.ConcreteTemplateA</node>
+    <node x="80.77272727272725" y="0.0">com.example.design_pattern.behavioral.template_pattern.AbstractTemplate</node>
+    <node x="484.5" y="80.0">com.example.design_pattern.behavioral.template_pattern.inner</node>
+    <node x="64.24999999999997" y="162.0">com.example.design_pattern.behavioral.template_pattern.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.design_pattern.behavioral.template_pattern.inner" target="com.example.design_pattern.behavioral.template_pattern.inner" relationship="CREATE">
+      <point x="0.0" y="15.0" />
+      <point x="557.5" y="130.0" />
+      <point x="464.5" y="130.0" />
+      <point x="464.5" y="95.0" />
+      <point x="-73.0" y="-0.0" />
+    </edge>
+    <edge source="com.example.design_pattern.behavioral.template_pattern.Main" target="com.example.design_pattern.behavioral.template_pattern.ConcreteTemplateA" relationship="CREATE">
+      <point x="30.0" y="-15.0" />
+      <point x="139.24999999999997" y="141.0" />
+      <point x="340.5" y="141.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.example.design_pattern.behavioral.template_pattern.Main" target="com.example.design_pattern.behavioral.template_pattern.AbstractTemplate" relationship="DEPENDENCY">
+      <point x="-30.0" y="-15.0" />
+      <point x="79.24999999999997" y="141.0" />
+      <point x="0.0" y="141.0" />
+      <point x="0.0" y="50.0" />
+      <point x="128.77272727272725" y="50.0" />
+      <point x="-48.0" y="15.0" />
+    </edge>
+    <edge source="com.example.design_pattern.behavioral.template_pattern.inner" target="com.example.design_pattern.behavioral.template_pattern.AbstractTemplate" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="557.5" y="60.0" />
+      <point x="340.5" y="60.0" />
+      <point x="340.5" y="50.0" />
+      <point x="224.77272727272725" y="50.0" />
+      <point x="48.0" y="15.0" />
+    </edge>
+    <edge source="com.example.design_pattern.behavioral.template_pattern.ConcreteTemplateA" target="com.example.design_pattern.behavioral.template_pattern.AbstractTemplate" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="340.5" y="50.0" />
+      <point x="224.77272727272725" y="50.0" />
+      <point x="48.0" y="15.0" />
+    </edge>
+    <edge source="com.example.design_pattern.behavioral.template_pattern.Main" target="com.example.design_pattern.behavioral.template_pattern.ConcreteTemplateB" relationship="CREATE">
+      <point x="0.0" y="-15.0" />
+      <point x="109.24999999999997" y="141.0" />
+      <point x="113.5" y="141.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.example.design_pattern.behavioral.template_pattern.ConcreteTemplateB" target="com.example.design_pattern.behavioral.template_pattern.AbstractTemplate" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="113.5" y="60.0" />
+      <point x="340.5" y="60.0" />
+      <point x="340.5" y="50.0" />
+      <point x="224.77272727272725" y="50.0" />
+      <point x="48.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="300.0" y="92.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
