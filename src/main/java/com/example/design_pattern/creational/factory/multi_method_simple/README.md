@@ -1,0 +1,1 @@
+与simple的区别不大，factory中方法数量不同而已

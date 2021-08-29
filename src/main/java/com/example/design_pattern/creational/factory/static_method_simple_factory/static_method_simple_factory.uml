@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.design_pattern.creational.factory.static_method_simple_factory</OriginalElement>
+  <nodes>
+    <node x="347.0" y="80.0">com.example.design_pattern.creational.factory.static_method_simple_factory.EmailSender</node>
+    <node x="188.0" y="80.0">com.example.design_pattern.creational.factory.static_method_simple_factory.SmsSender</node>
+    <node x="346.25" y="244.0">com.example.design_pattern.creational.factory.static_method_simple_factory.Main</node>
+    <node x="330.7361111111111" y="0.0">com.example.design_pattern.creational.factory.static_method_simple_factory.Sender</node>
+    <node x="265.5" y="162.0">com.example.design_pattern.creational.factory.static_method_simple_factory.SendFactory</node>
+    <node x="0.0" y="80.0">com.example.design_pattern.creational.factory.static_method_simple_factory.ExpressSender</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.design_pattern.creational.factory.static_method_simple_factory.SendFactory" target="com.example.design_pattern.creational.factory.static_method_simple_factory.Sender" relationship="DEPENDENCY">
+      <point x="55.5" y="-15.0" />
+      <point x="395.0" y="141.0" />
+      <point x="506.5" y="141.0" />
+      <point x="506.5" y="60.0" />
+      <point x="517.25" y="60.0" />
+      <point x="517.25" y="50.0" />
+      <point x="410.2361111111111" y="50.0" />
+      <point x="26.5" y="15.0" />
+    </edge>
+    <edge source="com.example.design_pattern.creational.factory.static_method_simple_factory.EmailSender" target="com.example.design_pattern.creational.factory.static_method_simple_factory.Sender" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="421.5" y="60.0" />
+      <point x="255.4861111111111" y="60.0" />
+      <point x="255.4861111111111" y="50.0" />
+      <point x="357.2361111111111" y="50.0" />
+      <point x="-26.5" y="15.0" />
+    </edge>
+    <edge source="com.example.design_pattern.creational.factory.static_method_simple_factory.ExpressSender" target="com.example.design_pattern.creational.factory.static_method_simple_factory.Sender" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="84.0" y="60.0" />
+      <point x="255.4861111111111" y="60.0" />
+      <point x="255.4861111111111" y="50.0" />
+      <point x="357.2361111111111" y="50.0" />
+      <point x="-26.5" y="15.0" />
+    </edge>
+    <edge source="com.example.design_pattern.creational.factory.static_method_simple_factory.SmsSender" target="com.example.design_pattern.creational.factory.static_method_simple_factory.Sender" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="257.5" y="60.0" />
+      <point x="255.4861111111111" y="60.0" />
+      <point x="255.4861111111111" y="50.0" />
+      <point x="357.2361111111111" y="50.0" />
+      <point x="-26.5" y="15.0" />
+    </edge>
+    <edge source="com.example.design_pattern.creational.factory.static_method_simple_factory.SendFactory" target="com.example.design_pattern.creational.factory.static_method_simple_factory.SmsSender" relationship="CREATE">
+      <point x="-18.5" y="-15.0" />
+      <point x="321.0" y="131.0" />
+      <point x="257.5" y="131.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.example.design_pattern.creational.factory.static_method_simple_factory.Main" target="com.example.design_pattern.creational.factory.static_method_simple_factory.Sender" relationship="DEPENDENCY">
+      <point x="22.5" y="-15.0" />
+      <point x="413.75" y="218.0" />
+      <point x="517.25" y="218.0" />
+      <point x="517.25" y="50.0" />
+      <point x="410.2361111111111" y="50.0" />
+      <point x="26.5" y="15.0" />
+    </edge>
+    <edge source="com.example.design_pattern.creational.factory.static_method_simple_factory.SendFactory" target="com.example.design_pattern.creational.factory.static_method_simple_factory.ExpressSender" relationship="CREATE">
+      <point x="-55.5" y="-15.0" />
+      <point x="284.0" y="141.0" />
+      <point x="84.0" y="141.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.example.design_pattern.creational.factory.static_method_simple_factory.SendFactory" target="com.example.design_pattern.creational.factory.static_method_simple_factory.EmailSender" relationship="CREATE">
+      <point x="18.5" y="-15.0" />
+      <point x="358.0" y="131.0" />
+      <point x="421.5" y="131.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.example.design_pattern.creational.factory.static_method_simple_factory.Main" target="com.example.design_pattern.creational.factory.static_method_simple_factory.SendFactory" relationship="DEPENDENCY">
+      <point x="-22.5" y="-15.0" />
+      <point x="368.75" y="218.0" />
+      <point x="339.5" y="218.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="248.0" y="92.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
