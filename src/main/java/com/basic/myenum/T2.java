@@ -8,6 +8,7 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.Date;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicLong;
 
 
 @Slf4j
@@ -36,7 +37,15 @@ public class T2 {
         // single#correct#1106234177010393#3#all
         String action = params.get(0);
 
-        System.out.println(action);
+        log.info(action);
+
+        AtomicLong a = new AtomicLong();
+        a.incrementAndGet();
+        System.out.println(new StringBuffer().append(a).append(a).append(a).toString());
+
+        System.out.println(String.format("%.02f%%", 99.3));
+
+
     }
 }
 
